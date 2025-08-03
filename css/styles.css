@@ -715,7 +715,8 @@ img {
   border: none;
   padding: 0;
 }
-.form-comment {
+
+.modal-form-item-comment {
   margin-bottom: 16px;
 }
 
