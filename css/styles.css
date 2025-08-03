@@ -227,6 +227,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-submit-button {
+  align-self: center;
+}
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state-color);
@@ -600,6 +604,7 @@ img {
 .modal-close-button:hover,
 .modal-close-button:focus {
   background-color: var(--pressed-state-color);
+  border: none;
 }
 
 .modal-close-button:hover .modal-close-icon,
@@ -709,6 +714,9 @@ img {
   margin-bottom: 24px;
   border: none;
   padding: 0;
+}
+.form-comment {
+  margin-bottom: 16px;
 }
 
 .modal-form-checkmark {
